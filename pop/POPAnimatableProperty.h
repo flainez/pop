@@ -111,6 +111,12 @@ extern NSString * const kPOPLayerTranslationY;
 extern NSString * const kPOPLayerTranslationZ;
 extern NSString * const kPOPLayerZPosition;
 
+/**
+ Common CAShapeLayer property names.
+ */
+extern NSString * const kPOPShapeLayerStrokeStart;
+extern NSString * const kPOPShapeLayerStrokeEnd;
+extern NSString * const kPOPShapeLayerStrokeColor;
 
 /**
  Common NSLayoutConstraint property names.
@@ -146,5 +152,19 @@ extern NSString * const kPOPScrollViewContentSize;
 extern NSString * const kPOPTableViewContentOffset;
 extern NSString * const kPOPTableViewContentSize;
 
+/**
+ Common UINavigationBar property names.
+ */
+extern NSString * const kPOPNavigationBarBarTintColor;
+
+/**
+ Common UIToolbar property names.
+ */
+extern NSString * const kPOPToolbarBarTintColor;
+
+/**
+ Common UITabBar property names.
+ */
+extern NSString * const kPOPTabBarBarTintColor;
 
 #endif
